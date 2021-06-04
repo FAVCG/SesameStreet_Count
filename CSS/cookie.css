@@ -1,0 +1,120 @@
+body,
+html {
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#second-page {
+    /*background-image: url("../images/cm.png");*/
+    background: linear-gradient(45DEG, #2F1C53, #A46DFF, #F6D1FD);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.left-content img {
+    height: 75%;
+    width: 200%;
+    padding-top: 65%;
+}
+
+.right-content h1 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.column1 {
+    float: left;
+    width: 35%;
+    padding: 50px;
+}
+
+.column2 {
+    width: 65%;
+    padding: 50px;
+}
+
+.second-page {
+    display: flex;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-input {
+    padding: 8px 36px;
+}
+
+#scrollbar {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin-top: 30px;
+    overflow-y: scroll;
+}
+
+/*buttons*/
+button {
+    padding: 8px 50px;
+    border-radius: 3px;
+    border: none;
+    background-color: #0096FF;
+}
+
+.blue-center {
+    margin-top: 20px;
+    padding: 10px 233px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.blue-center:hover {
+    background-color: #0047AB;
+    cursor: pointer;
+}
+
+.purple-btn {
+    background-color: #8A2BE2;
+    color: #FFFFFF;
+    padding: 6px 70px;
+    margin-left: 55px;
+    font-size: 18px;
+}
+
+.purple-btn:hover {
+    background-color: #4B0082;
+    cursor: pointer;
+}
+
+/*speech bubble*/
+.bubble {
+    position: relative;
+    background: #ffffff;
+    color: #000000;
+    font-family: Arial Black;
+    font-size: 16px;
+    text-align: center;
+    width: 275px;
+    height: 113px;
+    border-radius: 6px;
+    padding: 13px;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: #ffffff transparent;
+    border-width: 67px 19px 0;
+    bottom: -67px;
+    left: 49%;
+    margin-left: -19px;
+}
