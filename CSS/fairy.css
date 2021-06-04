@@ -1,0 +1,123 @@
+body,
+html {
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+#third-page {
+    /*background-image: url("../images/cm.png");*/
+    background-color: #f907fc;
+    background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.column1 {
+    float: left;
+    width: 40%;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.column2 {
+    width: 45%;
+    padding: 50px;
+}
+
+.right-abby-content h1 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.left-abby img {
+    height: 75%;
+    width: 150%;
+    padding-top: 60%;
+}
+
+.third-page {
+    display: flex;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-input2 {
+    padding: 8px 36px;
+}
+
+#scrollbar2 {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin-top: 40px;
+    overflow-y: scroll;
+}
+
+/*buttons*/
+button {
+    padding: 8px 50px;
+    border-radius: 3px;
+    border: none;
+    background-color: #0096FF;
+}
+
+.pink-btn {
+    background-color: #FF00FF;
+    color: #FFFFFF;
+    padding: 6px 70px;
+    margin-left: 55px;
+    font-size: 18px;
+}
+
+.pink-btn:hover {
+    background-color: #f64a8a;
+    cursor: pointer;
+}
+
+.blue-center {
+    margin-top: 20px;
+    padding: 10px 233px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.blue-center:hover {
+    background-color: #0047AB;
+    cursor: pointer;
+}
+
+/*abby bubble*/
+.abby-bubble {
+    position: relative;
+    background: #ffffff;
+    color: #000000;
+    font-family: Arial Black;
+    font-size: 16px;
+    text-align: center;
+    width: 275px;
+    height: 113px;
+    border-radius: 6px;
+    padding: 13px;
+}
+
+.abby-bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: #ffffff transparent;
+    border-width: 67px 19px 0;
+    bottom: -67px;
+    left: 18%;
+    margin-left: -19px;
+}
